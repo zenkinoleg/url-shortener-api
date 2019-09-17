@@ -19,21 +19,21 @@ Clean Install
 Usage
 -----
 
-# url: /
+### url: /
 - description: About message.
 - method: GET
 
-# url: /urls/{page}
+### url: /urls/{page}
 - description: Get all records from a page.
 - method: GET
 - params: page - integer | optional | default = 1
 
-# url: /url</dt>
+### url: /url</dt>
 - description: Add new or return existing short url.
 - method: POST
 = data: url - string | required
 
-# url: /{short}
+### url: /{short}
 - description: Redirect short link to original address.
 - method: GET
 
