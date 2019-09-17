@@ -19,25 +19,23 @@ Clean Install
 Usage
 -----
 
-<dl>
-	<dt>url: /</dt>
-	<dd>description: About message.</dd>
-	<dd>method: GET</dd>
+# url: /
+- description: About message.
+- method: GET
 
-	<dt>#url: /urls/{page}</dt>
-	<dd>description: Get all records from a page.</dd>
-	<dd>method: GET</dd>
-	<dd>params: page - integer | optional | default = 1</dd>
+# url: /urls/{page}
+- description: Get all records from a page.
+- method: GET
+- params: page - integer | optional | default = 1
 
-	<dt>#url: /url</dt>
-	<dd>description: Add new or return existing short url.</dd>
-	<dd>method: POST</dd>
-	<dd>data: url - string | required</dd>
+# url: /url</dt>
+- description: Add new or return existing short url.
+- method: POST
+= data: url - string | required
 
-	<dt>#url: /{short}</dt>
-	<dd>description: Redirect short link to original address.</dd>
-	<dd>method: GET</dd>
-</dl>
+# url: /{short}
+- description: Redirect short link to original address.
+- method: GET
 
 Limitations
 -----------
