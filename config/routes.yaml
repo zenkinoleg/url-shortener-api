@@ -1,0 +1,19 @@
+about:
+    path:       /
+    controller: App\Controller\IndexController::index
+    methods: GET
+
+url_post:
+    path:       /url
+    controller: App\Controller\IndexController::postUrl
+    methods: POST
+
+urls_list:
+    path:       /urls/{page<[1-9]\d*>?1}
+    controller: App\Controller\IndexController::getUrlsList
+    methods: GET
+
+short_redirect:
+    path:       /{short}
+    controller: App\Controller\IndexController::shortRedirect
+    methods: GET
