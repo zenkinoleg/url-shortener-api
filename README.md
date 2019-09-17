@@ -4,7 +4,7 @@ Url-shortener-api v1.0
 
 Regular Install
 ---------------
-- git clone
+- git clone https://github.com/zenkinoleg/url-shortener-api.git
 - composer install
 
 Clean Install
@@ -20,25 +20,26 @@ Usage
 -----
 
 # url: /
-description: About message.
-method: GET
+description: About message.  
+method: GET  
 
 #url: /urls/{page}
-description: Get all records from a page.
-method: GET
-params: page - integer | optional | default = 1
+description: Get all records from a page.  
+method: GET  
+params: page - integer | optional | default = 1  
 
 #url: /url
-description: Add new or return existing short url.
-method: POST
-data: url - string | required
+description: Add new or return existing short url.  
+method: POST  
+data: url - string | required  
 
 #url: /{short}
-description: Redirect short link to original address.
-method: GET
+description: Redirect short link to original address.  
+method: GET  
 
 
 Limitations
 -----------
  - no correct url validation
  - cannot delete existing url
+ - no unit tests
