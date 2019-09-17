@@ -31,7 +31,7 @@ Usage
 ### url: /url</dt>
 - description: Add new or return existing short url.
 - method: POST
-= data: url - string | required
+- data: url - string | required
 
 ### url: /{short}
 - description: Redirect short link to original address.
