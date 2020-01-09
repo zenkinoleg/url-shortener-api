@@ -28,7 +28,7 @@ Usage
 - method: GET
 - params: page - integer | optional | default = 1
 
-### /url</dt>
+### /url
 - description: Add new or return existing short url.
 - method: POST
 - data: url - string | required
